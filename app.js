@@ -332,9 +332,9 @@ if (saveVcardBtn) {
       'N;CHARSET=UTF-8:;Захар;;;',
       'TEL;TYPE=CELL,VOICE;VALUE=uri:tel:+79963410773',
       'X-SOCIALPROFILE;type=telegram:https://t.me/pirotekhnik',
-      'NOTE;CHARSET=UTF-8:Telegram: @pirotekhnik | Max: https://max.ru/u/f9LHodD0cOKPPC728hAMvFVpY7uNrlajqBEabnwtQMDZGIaXkD4tOjGfKds',
+      'NOTE;CHARSET=UTF-8:Telegram: @pirotekhnik | MAX: https://max.ru/u/f9LHodD0cOKPPC728hAMvFVpY7uNrlajqBEabnwtQMDZGIaXkD4tOjGfKds',
       'URL;type=Telegram:https://t.me/pirotekhnik',
-      'URL;type=Max:https://max.ru/u/f9LHodD0cOKPPC728hAMvFVpY7uNrlajqBEabnwtQMDZGIaXkD4tOjGfKds',
+      'URL;type=MAX:https://max.ru/u/f9LHodD0cOKPPC728hAMvFVpY7uNrlajqBEabnwtQMDZGIaXkD4tOjGfKds',
       'END:VCARD'
     ].join('\r\n');
 
@@ -361,7 +361,7 @@ if (shareBtn) {
     sfx.play('click');
     const shareData = {
       title: 'Визитка Захара',
-      text: 'Личные контакты Захара (@pirotekhnik): Telegram, Max, Телефон',
+      text: 'Личные контакты Захара (@pirotekhnik): Telegram, MAX, Телефон',
       url: window.location.href
     };
 

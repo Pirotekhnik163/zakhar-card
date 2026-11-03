@@ -421,19 +421,14 @@ body {
 }
 
 .max-icon-wrap {
-  background: transparent;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid rgba(139, 92, 246, 0.45);
-  box-shadow: 0 4px 14px rgba(139, 92, 246, 0.28);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(168, 85, 247, 0.05));
+  color: #a78bfa;
+  border: 1px solid rgba(139, 92, 246, 0.3);
 }
 
-.max-app-icon {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
+.max-icon-wrap svg {
+  width: 22px;
+  height: 22px;
 }
 
 .phone-icon-wrap {
